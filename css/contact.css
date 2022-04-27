@@ -1,0 +1,44 @@
+.contact-heading {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 122%;
+  /* identical to box height, or 78px */
+
+  letter-spacing: 0.04em;
+
+  color: #000000;
+}
+.contact-form {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  font-size: 22px;
+}
+.contact-form-textarea {
+  width: 100%;
+  height: 150px;
+  border-radius: 5px;
+  border: none;
+  font-size: 22px;
+}
+.contact-adress {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: #000000;
+}
+@media(max-width:760px){
+    .contact-adress{
+        text-align: center;
+       margin-top: 20px;
+    }
+    .contact-heading {
+        font-size: 50px;
+    }
+}

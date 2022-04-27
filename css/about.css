@@ -1,0 +1,59 @@
+.about-heading{
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+color: black;
+
+}
+.about-heading-2{
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+text-decoration: underline;
+}
+.about-para{
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 31px;
+line-height: 119%;
+/* or 37px */
+
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+.about-antony-background{
+    width: 350px;
+  height: 350px;
+  background: #00967b;
+  box-shadow: inset 13px 10px 15px rgba(0, 0, 0, 0.22);
+  border-radius: 5px;
+  transform: rotate(-8.51deg);
+  position: relative;
+  bottom: 145px;
+  left: 125px;
+}
+.about-antony-img{
+    transform: rotate(8.51deg); 
+    transition: .5s;
+
+}
+.about-antony-img:hover{
+    transform: rotate(0deg); 
+
+}
+@media (max-width: 475px) {
+    .about-antony-background {
+      top: 30px;
+      left: 10%;
+      width: 300px;
+      height: 300px;
+    }
+    .about-antony-img{
+        width: 300px;
+        height: 300px;  
+    }
+}
