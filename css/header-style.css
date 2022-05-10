@@ -107,7 +107,7 @@ a:hover{
 }
 @media(max-width:500px){
   .home-img{
-    background: url(/mobile_background.png) no-repeat;
+    background: url("../mobile_background.png") no-repeat;
     height: 100%;
     width: 100%;
   }
